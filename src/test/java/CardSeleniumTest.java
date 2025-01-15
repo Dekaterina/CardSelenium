@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CardSeleniumTest {
-    private WebDriver driver = null;
+    private WebDriver driver;
 
     @BeforeAll
     public static void setupAll() {
